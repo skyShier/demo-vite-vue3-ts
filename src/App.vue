@@ -2,13 +2,14 @@
  * @Author:: shan.zheng
  * @Date:: Do not edit
  * @LastEditors: shan.zheng
- * @LastEditTime: 2021-10-30 11:22:32
+ * @LastEditTime: 2021-11-03 15:38:59
  * @Description:
 -->
 <script setup lang="ts">
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+import Test from './components/Test.vue'
 </script>
 
 <template>
@@ -16,7 +17,8 @@ import HelloWorld from './components/HelloWorld.vue'
     alt="Vue logo"
     src="./assets/logo.png"
   >
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <!-- <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" /> -->
+  <Test msg="props-mag" />
 </template>
 
 <style>
