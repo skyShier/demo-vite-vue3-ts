@@ -2,11 +2,11 @@
  * @Author: shan.zheng
  * @Date: 2021-11-03 14:41:16
  * @LastEditors: shan.zheng
- * @LastEditTime: 2021-11-03 16:02:16
+ * @LastEditTime: 2021-11-04 09:51:22
  * @Description: 测试页面
 -->
 <script setup lang="ts">
-import { ref, defineProps, defineEmits } from 'vue'
+import { ref } from 'vue'
 
 const props = defineProps({
   msg: {
